@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="main-login">
+        <!-- Left Section -->
+        <div class="left-login">
+            <h1>Welcome to Our Platform<br>Create an Account</h1>
+            <img src="https://i.postimg.cc/YC13sX2Z/Astronaut-cuate.png" class="left-login-img" alt="Astronaut illustration">
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Create Account</h1>
+                    <!-- Email -->
+                    <div class="textfield">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="textfield">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Create a password" required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button class="btn" type="submit" id="btn">Sign Up</button>
+
+                <!-- Already have an account -->
+                <p class="redirect-text">Already have an account? <a href="index.html">Login here</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.6/dist/sweetalert2.all.min.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.47.12/dist/umd/supabase.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
